@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ArticleCustomCell.h
 //  EMO News
 //
 //  Created by Kohei Hayakawa on 6/21/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ArticleCustomCell : UITableViewCell
 
 @end
