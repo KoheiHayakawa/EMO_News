@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "55E205681955A2C300E9B483"
-               BuildableName = "EMO News.app"
+               BuildableName = "emo-news.app"
                BlueprintName = "EMO News"
                ReferencedContainer = "container:EMO News.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E205681955A2C300E9B483"
-            BuildableName = "EMO News.app"
+            BuildableName = "emo-news.app"
             BlueprintName = "EMO News"
             ReferencedContainer = "container:EMO News.xcodeproj">
          </BuildableReference>
@@ -54,7 +54,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E205681955A2C300E9B483"
-            BuildableName = "EMO News.app"
+            BuildableName = "emo-news.app"
             BlueprintName = "EMO News"
             ReferencedContainer = "container:EMO News.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "55E205681955A2C300E9B483"
-            BuildableName = "EMO News.app"
+            BuildableName = "emo-news.app"
             BlueprintName = "EMO News"
             ReferencedContainer = "container:EMO News.xcodeproj">
          </BuildableReference>

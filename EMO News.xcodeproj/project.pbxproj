@@ -14,13 +14,20 @@
 		55E205791955A2C300E9B483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205781955A2C300E9B483 /* main.m */; };
 		55E2057D1955A2C300E9B483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E2057C1955A2C300E9B483 /* AppDelegate.m */; };
 		55E205801955A2C300E9B483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E2057E1955A2C300E9B483 /* Main.storyboard */; };
-		55E205831955A2C300E9B483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205821955A2C300E9B483 /* ViewController.m */; };
 		55E205851955A2C300E9B483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E205841955A2C300E9B483 /* Images.xcassets */; };
 		55E2058C1955A2C300E9B483 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E2058B1955A2C300E9B483 /* XCTest.framework */; };
 		55E2058D1955A2C300E9B483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E2056C1955A2C300E9B483 /* Foundation.framework */; };
 		55E2058E1955A2C300E9B483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E205701955A2C300E9B483 /* UIKit.framework */; };
 		55E205961955A2C300E9B483 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55E205941955A2C300E9B483 /* InfoPlist.strings */; };
 		55E205981955A2C300E9B483 /* EMO_NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205971955A2C300E9B483 /* EMO_NewsTests.m */; };
+		55E205A41955A31C00E9B483 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205A31955A31C00E9B483 /* ViewPagerController.m */; };
+		55E205A71955A40100E9B483 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205A61955A40100E9B483 /* BaseViewController.m */; };
+		55E205AA1955A4F500E9B483 /* ArticleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205A91955A4F500E9B483 /* ArticleTableViewController.m */; };
+		55E205AC1955A5A900E9B483 /* ArticleCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E205AB1955A5A900E9B483 /* ArticleCustomCell.xib */; };
+		55E205AF1955A5DE00E9B483 /* ArticleCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205AE1955A5DE00E9B483 /* ArticleCustomCell.m */; };
+		55E205B21955A6E700E9B483 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E205B11955A6E700E9B483 /* WebViewController.m */; };
+		55E205B41955A7A600E9B483 /* articles.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E205B31955A7A600E9B483 /* articles.json */; };
+		55E205B71955A7D200E9B483 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E205B61955A7D200E9B483 /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55E205691955A2C300E9B483 /* EMO News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EMO News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E205691955A2C300E9B483 /* emo-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "emo-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E2056C1955A2C300E9B483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55E2056E1955A2C300E9B483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		55E205701955A2C300E9B483 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -45,14 +52,25 @@
 		55E2057B1955A2C300E9B483 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55E2057C1955A2C300E9B483 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		55E2057F1955A2C300E9B483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		55E205811955A2C300E9B483 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55E205821955A2C300E9B483 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55E205841955A2C300E9B483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		55E2058A1955A2C300E9B483 /* EMO NewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EMO NewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E2058B1955A2C300E9B483 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		55E205931955A2C300E9B483 /* EMO NewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMO NewsTests-Info.plist"; sourceTree = "<group>"; };
 		55E205951955A2C300E9B483 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55E205971955A2C300E9B483 /* EMO_NewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMO_NewsTests.m; sourceTree = "<group>"; };
+		55E205A21955A31C00E9B483 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
+		55E205A31955A31C00E9B483 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
+		55E205A51955A40100E9B483 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		55E205A61955A40100E9B483 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		55E205A81955A4F500E9B483 /* ArticleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewController.h; sourceTree = "<group>"; };
+		55E205A91955A4F500E9B483 /* ArticleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewController.m; sourceTree = "<group>"; };
+		55E205AB1955A5A900E9B483 /* ArticleCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleCustomCell.xib; sourceTree = "<group>"; };
+		55E205AD1955A5DE00E9B483 /* ArticleCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleCustomCell.h; sourceTree = "<group>"; };
+		55E205AE1955A5DE00E9B483 /* ArticleCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleCustomCell.m; sourceTree = "<group>"; };
+		55E205B01955A6E700E9B483 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		55E205B11955A6E700E9B483 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		55E205B31955A7A600E9B483 /* articles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = articles.json; sourceTree = "<group>"; };
+		55E205B61955A7D200E9B483 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,13 +104,14 @@
 				55E205911955A2C300E9B483 /* EMO NewsTests */,
 				55E2056B1955A2C300E9B483 /* Frameworks */,
 				55E2056A1955A2C300E9B483 /* Products */,
+				55E205B51955A7BC00E9B483 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
 		55E2056A1955A2C300E9B483 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				55E205691955A2C300E9B483 /* EMO News.app */,
+				55E205691955A2C300E9B483 /* emo-news.app */,
 				55E2058A1955A2C300E9B483 /* EMO NewsTests.xctest */,
 			);
 			name = Products;
@@ -112,11 +131,10 @@
 		55E205721955A2C300E9B483 /* EMO News */ = {
 			isa = PBXGroup;
 			children = (
-				55E2057B1955A2C300E9B483 /* AppDelegate.h */,
-				55E2057C1955A2C300E9B483 /* AppDelegate.m */,
-				55E2057E1955A2C300E9B483 /* Main.storyboard */,
-				55E205811955A2C300E9B483 /* ViewController.h */,
-				55E205821955A2C300E9B483 /* ViewController.m */,
+				55E205B91955A93900E9B483 /* Model */,
+				55E205B81955A90000E9B483 /* Controller */,
+				55E205BA1955A94600E9B483 /* View */,
+				55E205A11955A31C00E9B483 /* ICViewPager */,
 				55E205841955A2C300E9B483 /* Images.xcassets */,
 				55E205731955A2C300E9B483 /* Supporting Files */,
 			);
@@ -152,6 +170,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		55E205A11955A31C00E9B483 /* ICViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				55E205A21955A31C00E9B483 /* ViewPagerController.h */,
+				55E205A31955A31C00E9B483 /* ViewPagerController.m */,
+			);
+			path = ICViewPager;
+			sourceTree = "<group>";
+		};
+		55E205B51955A7BC00E9B483 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55E205B31955A7A600E9B483 /* articles.json */,
+				55E205B61955A7D200E9B483 /* logo@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55E205B81955A90000E9B483 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				55E2057B1955A2C300E9B483 /* AppDelegate.h */,
+				55E2057C1955A2C300E9B483 /* AppDelegate.m */,
+				55E205A51955A40100E9B483 /* BaseViewController.h */,
+				55E205A61955A40100E9B483 /* BaseViewController.m */,
+				55E205A81955A4F500E9B483 /* ArticleTableViewController.h */,
+				55E205A91955A4F500E9B483 /* ArticleTableViewController.m */,
+				55E205B01955A6E700E9B483 /* WebViewController.h */,
+				55E205B11955A6E700E9B483 /* WebViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		55E205B91955A93900E9B483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55E205AD1955A5DE00E9B483 /* ArticleCustomCell.h */,
+				55E205AE1955A5DE00E9B483 /* ArticleCustomCell.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		55E205BA1955A94600E9B483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55E2057E1955A2C300E9B483 /* Main.storyboard */,
+				55E205AB1955A5A900E9B483 /* ArticleCustomCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +238,7 @@
 			);
 			name = "EMO News";
 			productName = "EMO News";
-			productReference = 55E205691955A2C300E9B483 /* EMO News.app */;
+			productReference = 55E205691955A2C300E9B483 /* emo-news.app */;
 			productType = "com.apple.product-type.application";
 		};
 		55E205891955A2C300E9B483 /* EMO NewsTests */ = {
@@ -199,6 +268,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kohei Hayakawa";
 				TargetAttributes = {
+					55E205681955A2C300E9B483 = {
+						DevelopmentTeam = KQ5CJ2X9W9;
+					};
 					55E205891955A2C300E9B483 = {
 						TestTargetID = 55E205681955A2C300E9B483;
 					};
@@ -229,7 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E205851955A2C300E9B483 /* Images.xcassets in Resources */,
+				55E205B71955A7D200E9B483 /* logo@2x.png in Resources */,
+				55E205AC1955A5A900E9B483 /* ArticleCustomCell.xib in Resources */,
 				55E205771955A2C300E9B483 /* InfoPlist.strings in Resources */,
+				55E205B41955A7A600E9B483 /* articles.json in Resources */,
 				55E205801955A2C300E9B483 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,8 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55E205831955A2C300E9B483 /* ViewController.m in Sources */,
+				55E205A71955A40100E9B483 /* BaseViewController.m in Sources */,
+				55E205AA1955A4F500E9B483 /* ArticleTableViewController.m in Sources */,
+				55E205B21955A6E700E9B483 /* WebViewController.m in Sources */,
 				55E2057D1955A2C300E9B483 /* AppDelegate.m in Sources */,
+				55E205AF1955A5DE00E9B483 /* ArticleCustomCell.m in Sources */,
+				55E205A41955A31C00E9B483 /* ViewPagerController.m in Sources */,
 				55E205791955A2C300E9B483 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,10 +455,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMO News/EMO News-Prefix.pch";
 				INFOPLIST_FILE = "EMO News/EMO News-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "emo-news";
+				PROVISIONING_PROFILE = "2BC9EA2F-60FD-4E20-9910-8AD6912D48E0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +472,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kohei Hayakawa (KQ5CJ2X9W9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kohei Hayakawa (KQ5CJ2X9W9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EMO News/EMO News-Prefix.pch";
 				INFOPLIST_FILE = "EMO News/EMO News-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "emo-news";
+				PROVISIONING_PROFILE = "2BC9EA2F-60FD-4E20-9910-8AD6912D48E0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +543,7 @@
 				55E2059D1955A2C300E9B483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55E2059E1955A2C300E9B483 /* Build configuration list for PBXNativeTarget "EMO NewsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +552,7 @@
 				55E205A01955A2C300E9B483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

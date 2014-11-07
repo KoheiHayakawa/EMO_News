@@ -887,7 +887,25 @@
         TabView *tabView = [[TabView alloc] initWithFrame:CGRectMake(0.0, 0.0, [self.tabWidth floatValue], [self.tabHeight floatValue])];
         [tabView addSubview:tabViewContent];
         [tabView setClipsToBounds:YES];
-        [tabView setIndicatorColor:self.indicatorColor];
+        //[tabView setIndicatorColor:self.indicatorColor];
+        
+        if (index == 0) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:0.333 green:0.333 blue:0.333 alpha:1.0]];
+        } else if (index == 1) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:1.0 green:0.827 blue:0.247 alpha:1.0]];
+        } else if (index == 2) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:0.953 green:0.596 blue:0.0 alpha:1.0]];
+        //} else if (index == 3) {
+        //    [tabView setIndicatorColor:[UIColor colorWithRed:0.937 green:0.522 blue:0.549 alpha:1.0]];
+        } else if (index == 3) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:0.0 green:0.804 blue:0.635 alpha:1.0]];
+        } else if (index == 4) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:1.0 green:0.286 blue:0.341 alpha:1.0]];
+        } else if (index == 5) {
+            [tabView setIndicatorColor:[UIColor colorWithRed:0.0 green:0.455 blue:0.941 alpha:1.0]];
+        } else {
+            [tabView setIndicatorColor:[UIColor colorWithRed:0.573 green:0.333 blue:0.694 alpha:1.0]];
+        }
         
         tabViewContent.center = tabView.center;
         
